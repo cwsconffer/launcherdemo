@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.prize.simple">
+
+    <!-- 备忘录 -->
+    <app
+        launcher:className="zte.com.cn.cloudnotepad.ui.SplashActivity"
+        launcher:packageName="zte.com.cn.cloudnotepad"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="4" />
+
+    <!-- 掌心管家 -->
+    <app
+        launcher:className="com.zte.heartyservice.main.HeartServiceActivityLauncher"
+        launcher:packageName="com.zte.heartyservice"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="1"
+        launcher:y="4" />
+
+
+    <!-- 省电管家-->
+    <app
+        launcher:className="com.zte.smartpower.SmartPowerActivity"
+        launcher:packageName="com.zte.smartpower"
+        launcher:screen="2"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <!-- 相机 -->
+    <app
+        launcher:className="com.zte.camera.CameraActivity"
+        launcher:packageName="com.zte.camera"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="1"
+        launcher:y="2" />
+
+    <!-- 图库 -->
+    <app
+        launcher:className="com.android.gallery3d.app.GalleryActivity"
+        launcher:packageName="com.android.gallery3d"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="2" />
+
+    <!-- 日历 -->
+    <app
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:packageName="com.android.calendar"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="1"
+        launcher:y="3" />
+
+    <!-- 备份助手 -->
+    <app
+        launcher:className="com.ume.weshare.activity.NewMainActivity"
+        launcher:packageName="cuuca.sendfiles.Activity"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="1"
+        launcher:y="3" />
+
+
+    <!-- 天气 -->
+    <widget
+        launcher:className=""
+        launcher:packageName=""
+        launcher:screen="1"
+        launcher:spanX="2"
+        launcher:spanY="2"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <!-- 联系人只需要配置一个即可, 因不知道手机的联系人信息, 配置一个就能填充一屏 , 配置多个无用-->
+    <contact
+        launcher:screen="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="0" />
+    <!-- 增加应该的图标 -->
+    <add
+        launcher:screen="2"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:x="1"
+        launcher:y="0" />
+</favorites>

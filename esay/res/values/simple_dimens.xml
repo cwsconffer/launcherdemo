@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- simple launcher rows and cols -->
+    <integer name="simple_rows">5</integer>
+    <integer name="simple_cols">2</integer>
+    <dimen name="item_vertical_padding">3dp</dimen>
+    <dimen name="item_horizontal_padding">3dp</dimen>
+    
+    <dimen name="page_left_padding">6dp</dimen>
+    <dimen name="page_right_padding">6dp</dimen>
+    <dimen name="page_top_padding">2dp</dimen>
+    <dimen name="page_bottom_padding">3dp</dimen>
+    
+       <dimen name="item_vertical_padding_1440">10dp</dimen>
+    <dimen name="item_horizontal_padding_1440">5dp</dimen>
+    
+    <dimen name="page_left_padding_1440">10dp</dimen>
+    <dimen name="page_right_padding_1440">10dp</dimen>
+    <dimen name="page_top_padding_1440">10dp</dimen>
+    <dimen name="page_bottom_padding_1440">14dp</dimen>
+    <!--  -->
+</resources>

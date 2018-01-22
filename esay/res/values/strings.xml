@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">easy</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+    <!-- simple launcher start -->
+    <string name="prize_lunar_leap" translatable="false">闰</string>
+    <string name="prize_tc_lunar_leap" translatable="false">閏</string>
+    <string name="prize_lunar_tenth_day" translatable="false">初十</string>
+    <string name="prize_lunar_twentieth_day" tanslatable="false">二十</string>
+    <string name="prize_lunar_thirtieth_day" translatable="false">三十</string>
+    <string name="prize_lunar_fest_chunjie">春节</string>
+    <string name="prize_lunar_fest_duanwu">端午节</string>
+    <string name="prize_lunar_fest_zhongqiu">中秋节</string>
+    <string name="prize_lunar_fest_yuandan">元旦</string>
+    <string name="prize_lunar_fest_laodong">劳动节</string>
+    <string name="prize_lunar_fest_guoqing">国庆节</string>
+    <string name="prize_lunar_fest_yuanxiao">元宵节</string>
+    <string name="prize_lunar_fest_qixi">七夕</string>
+    <string name="prize_lunar_fest_chongyang">重阳节</string>
+    <string name="prize_lunar_fest_qingnian">青年节</string>
+    <string name="prize_lunar_fest_qingren">情人节</string>
+    <string name="prize_lunar_fest_funv">妇女节</string>
+    <string name="prize_lunar_fest_zhishu">植树节</string>
+    <string name="prize_lunar_fest_yuren">愚人节</string>
+    <string name="prize_lunar_fest_ertong">儿童节</string>
+    <string name="prize_lunar_fest_jiandang">建党节</string>
+    <string name="prize_lunar_fest_jianjun">建军节</string>
+    <string name="prize_lunar_fest_jiaoshi">教师节</string>
+    <string name="prize_lunar_fest_shengdan">圣诞节</string>
+    
+    <string name="prize_tc_lunar_fest_chunjie">春节</string>
+    <string name="prize_tc_lunar_fest_duanwu">端午节</string>
+    <string name="prize_tc_lunar_fest_zhongqiu">中秋节</string>
+   	<string name="prize_lunar_year" translatable="false">年</string>
+    <string name="prize_lunar_month" translatable="false">月</string>
+    <string name="prize_lunar_day" translatable="false">日</string>
+    <string name="prize_create_event" translatable="false">新建事件</string>
+    <string name="prize_button_cancel" translatable="false">取消</string>
+    <string name="prize_button_done" translatable="false">确定</string>
+    
+    <string name="prize_lunar_hours">时</string>
+    <string name="prize_lunar_minuts">分</string>
+    
+    <!-- simple launcher end -->
+    <string name="simple_add_contact">"添加联系人"</string>
+    <string name="simple_lu_year_date">"%1$s年     %2$s"</string>
+    
+    <string name="simple_temp_l_h">" %1$s℃  %2$s"</string>
+    
+    <string name="simple_all_app">"所有应用"</string>
+    <string name="simple_settings">"设置"</string>
+    <string name="simple_sys_settings">"系统设置"</string>
+    <string name="simple_desk_manager">"桌面管理"</string>
+    <string name="simple_speak_manager">"语音控制"</string>
+    <string name="simple_exit_desk">"退出桌面"</string>
+    <string name="simple_safe_lock">"安心锁"</string>
+    <string name="simple_safe_lock_hint">"安心锁锁住后，用户无法改变桌面内容及软件设置，可以安心使用．"</string>
+    <string name="simple_locked">"已锁住"</string>
+    <string name="simple_unlock">"未锁住"</string>
+    <string name="simple_voice_launcher">"桌面播报"</string>
+    <string name="simple_voice_call">"拨号键盘播报"</string>
+    <string name="simple_voice_mms">"来电号码播报"</string>
+    <string name="simple_voice_dialer">"新短信播报"</string>
+    <string name="simple_widget_clock">"时钟"</string>
+    <string name="simple_widget_calender">"日历"</string>
+    <string name="simple_widget_weather">"天气"</string>
+    <string name="str_del_from">移除</string>
+    <string name="str_add_to">添加</string>
+    
+    <string name="prize_lunar_detail_info_fmt1" translatable="false">"，农历%s"</string>
+    <string name="prize_lunar_detail_info_fmt2" formatted="false" translatable="false">"，﻿农历%s – %s"</string>
+    <string name="prize_lunar_info_fmt" translatable="false">"，%s"</string>
+</resources>

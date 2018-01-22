@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <com.android.prize.simple.ui.RoundImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/simple_weather_bg"
+         app:borderRadius="7dp"
+         android:id="@+id/img_weather_bg"
+         app:borderWidth="0dp" />
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:baselineAligned="false"
+        >
+	    <LinearLayout android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:id="@+id/left"
+	        android:layout_weight="1"
+	        android:paddingLeft="10dp"
+	        android:layout_gravity="center_vertical"
+	        >
+	        <TableRow android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/lay_time"
+		        android:layout_marginBottom="8dp"
+		        >
+	            <ImageView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:id="@+id/img_1"
+	                android:contentDescription="@null"
+	                />
+	            <ImageView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:id="@+id/img_2"
+	                android:contentDescription="@null"
+	                />
+	            <ImageView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:id="@+id/img_3"
+	                android:contentDescription="@null"
+	                android:src="@drawable/simple_time_x"
+	                />
+	            <ImageView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:id="@+id/img_4"
+	                android:contentDescription="@null"
+	                />
+	            <ImageView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:id="@+id/img_5"
+	                android:contentDescription="@null"
+	                />
+	        </TableRow>
+	        <!-- <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:id="@+id/txt_time"
+		        android:textSize="40sp"
+		        android:textColor="@android:color/white"
+		        /> -->
+	        
+	        <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:id="@+id/txt_day"
+		        android:textSize="16sp"
+		        android:textColor="@android:color/white"
+		        android:layout_marginBottom="5dp"
+		        />
+	        
+	        <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:id="@+id/txt_old_day"
+		        android:textSize="16sp"
+		        android:textColor="@android:color/white"
+		        />
+	    </LinearLayout>
+	    
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginEnd="15dp"
+	        >
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:id="@+id/txt_temp"
+		        android:drawableTop="@drawable/simple_weather_default"
+		       	android:minWidth="69dp"
+		       	android:textSize="14sp"
+		       	android:textColor="@android:color/white"
+		        />
+		    
+		    <TextView android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:maxLength="4"
+		        android:ellipsize="end"
+		        android:id="@+id/txt_city"
+		       	android:textSize="14sp"
+		       	android:gravity="center"
+		       	android:layout_marginTop="8dp"
+		       	android:textColor="@android:color/white"
+		        />
+	    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

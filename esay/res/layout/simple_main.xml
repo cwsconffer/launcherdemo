@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.prize.simple.ui.SimpleFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/simple_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.prize.simple.ui.SimplePageView
+        android:id="@+id/paged_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        app:pageIndicator="@+id/page_indicator"
+        app:pageSpacing="0dp" />
+
+    <include
+        android:id="@+id/page_indicator"
+        layout="@layout/page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom|center_horizontal" />
+</com.android.prize.simple.ui.SimpleFrame>

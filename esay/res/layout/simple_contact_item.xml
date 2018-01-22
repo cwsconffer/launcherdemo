@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simple_contact_bg"
+    >
+    
+    <ImageView android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:id="@+id/img_head"
+    	android:scaleType="centerInside"
+    	android:contentDescription="@null"
+    	/>
+    
+    <ImageView android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:id="@+id/img_layer"
+    	android:contentDescription="@null"
+    	android:background="@drawable/simple_item_layer_selector"
+    	/>
+    
+	<TableRow android:layout_width="match_parent"
+	    android:layout_height="38dp"
+	    android:layout_gravity="bottom"
+	    android:gravity="center"
+	    android:background="@drawable/tablerow_bg"
+	    >
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:id="@+id/txt_title"
+	        android:textColor="@android:color/white"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        />
+	</TableRow>
+	
+	<ImageView android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/img_del"
+    	android:scaleType="centerInside"
+    	android:src="@drawable/simple_item_del"
+    	android:contentDescription="@null"
+    	android:visibility="invisible"
+    	android:layout_gravity="right"
+    	android:layout_marginRight="5dp"
+    	android:layout_marginTop="5dp"
+    	/>
+</FrameLayout>
